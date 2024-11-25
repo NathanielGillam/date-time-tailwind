@@ -20,13 +20,16 @@ This project showcases a live date and time display in a visually appealing form
    cd your-repo
 
 Note **Ensure you have Tailwind CSS installed. If not, refer to the Tailwind CSS Installation Guide.**
+
 2. File Structure
 
+```
 project-root/
 ├── index.html     # Main HTML file
 ├── style.css      # Tailwind CSS and custom styles
 ├── time.js        # Script for time logic
 ├── date.js        # Script for date logic
+```
 
 3. Running the Application
 
