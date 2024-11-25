@@ -19,7 +19,7 @@ This project showcases a live date and time display in a visually appealing form
    git clone https://github.com/NathanielGillam/date-time-tailwind
    cd your-repo
 
-Ensure you have Tailwind CSS installed. If not, refer to the Tailwind CSS Installation Guide.
+Note **Ensure you have Tailwind CSS installed. If not, refer to the Tailwind CSS Installation Guide.**
 2. File Structure
 
 project-root/
