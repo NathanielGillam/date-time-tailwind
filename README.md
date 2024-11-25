@@ -16,7 +16,7 @@ This project showcases a live date and time display in a visually appealing form
 ### **1. Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/NathanielGillam/date-time-tailwind
    cd your-repo
 
 Ensure you have Tailwind CSS installed. If not, refer to the Tailwind CSS Installation Guide.
