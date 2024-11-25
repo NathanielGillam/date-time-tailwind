@@ -11,28 +11,26 @@
     <script src="date.js" defer></script>
 
 </head>
-<body class="h-screen flex justify-center items-center">
-
-    <main>
+<body class="h-screen flex justify-center items-center bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-500 text-white">
   
-        <!-- Time -->
-        <time class="time h-screen flex items-center justify-center font-mono">
-                <data class="hours text-6xl">HH</data> :
-                <data class="minutes text-4xl">MM</data> :
-                <data class="seconds">SS</data>
-                <data class="amOrPM">AM/PM</data>
-            </time>
-      
-          
-        <!-- Date -->
-        <time class="date h-screen flex items-center justify-center font-mono">
-          <data class="month block">Month</data>
-          <data class="dayOfMonth">00</data>,
-          <data class="year">0000</data> -
-          <data class="dayOfWeek">SMTWTFS</data>
-        </time>
-      
-      </main>
+  <main class="text-center">
+    <h1 class="text-zinc-950 text-9xl font-bold">Nathaniel's Clock</h1>
+      <!-- Time -->
+      <div class="time flex flex-col items-center bg-black bg-opacity-50 p-6 rounded-lg shadow-lg">
+          <span class="text-7xl font-bold hours">HH</span> ---
+          <span class="text-5xl minutes">MM</span> ---
+          <span class="text-4xl seconds">SS</span>
+          <span class="text-3xl mt-2 amOrPM">AM/PM</span>
+      </div>
     
+      <!-- Date -->
+      <div class="date mt-8 bg-white bg-opacity-50 p-6 rounded-lg shadow-lg text-black">
+          <span class="text-4xl block month">Month</span>
+          <span class="text-3xl dayOfMonth">00</span>,
+          <span class="text-3xl year">0000</span> -
+          <span class="text-3xl dayOfWeek">Day</span>
+      </div>
+  </main>
 </body>
+
 </html>
